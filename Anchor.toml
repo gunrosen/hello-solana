@@ -1,13 +1,13 @@
 [features]
 seeds = false
-[programs.localnet]
-hello_solana = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+hello_solana = "6rGiNTXnd2WnT3zSokz2SNhv9EFGc9Nc7tABqRmk3Lms"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/Users/hulk/Documents/SETUP/Solana/testnet.json"
 
 [scripts]
