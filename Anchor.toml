@@ -1,5 +1,16 @@
+[package]
+name = "hello-solana"
+version = "0.0.1"
+description = "Example template program written in Rust"
+authors = ["Hung Pham <hung.pham@icetea.io>"]
+repository = "git@github.com:gunrosen/hello-solana.git"
+license = "Apache-2.0"
+homepage = "https://hulk.me/"
+edition = "2020"
+
 [features]
 seeds = false
+
 [programs.devnet]
 hello_solana = "6rGiNTXnd2WnT3zSokz2SNhv9EFGc9Nc7tABqRmk3Lms"
 

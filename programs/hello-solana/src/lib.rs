@@ -7,7 +7,7 @@ pub mod hello_solana {
     use anchor_lang::solana_program::entrypoint::ProgramResult;
     use super::*;
 
-    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+    pub fn initialize(ctx: Context<Initialize>) -> ProgramResult {
         Ok(())
     }
 
